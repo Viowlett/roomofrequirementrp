@@ -1,0 +1,242 @@
+html {
+  background-color: peachpuff;
+}
+
+/*Main page Title colour and background*/
+h1 {
+  color: azure;
+  background-color: black;
+}
+
+/*Subheadings*/
+
+h2 {
+  color: azure;
+  background-color: black;
+}
+
+/* Webpage wide font for all writing in general*/
+
+p {
+  font-family: "Fjalla One", sans-serif;
+}
+
+/*Main banner colour black with light blue text instead of hyperlink blue*/
+
+.banner {
+  color: aliceblue;
+  background-color: black;
+}
+
+/* All text in tables to be a specific font and centered*/
+
+td {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+}
+
+/*Making both the main banner title and seconary title centered and with the same font*/
+
+body h1 {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+}
+
+body h2 {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+}
+/*Table subheadings*/
+body h3 {
+  text-align: center;
+  background-color: black;
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+}
+
+/* Navigation bar background*/
+/* Navigation bar alignment, font, text size and bar padding*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Turns the list into a bar*/
+nav li {
+  display: inline-flex;
+  flex: wrap;
+  align-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+#top {
+  background-color: black;
+  color: aliceblue;
+}
+/* Nav li x4 is to give a multicoloured hover over effect with red, yellow, green and blue like the house colours.*/
+nav li:hover:nth-of-type(4n + 1) {
+  background-color: blue;
+  color: #000000;
+  padding: 10px;
+  border-radius: 40%;
+  transition: all 1s ease-in-out;
+}
+
+nav li:hover:nth-of-type(4n + 2) {
+  background-color: gold;
+  color: #000000;
+  padding: 10px;
+  border-radius: 40%;
+  transition: all 1s ease-in-out;
+}
+
+nav li:hover:nth-of-type(4n + 3) {
+  background-color: green;
+  color: #000000;
+  padding: 10px;
+  border-radius: 40%;
+  transition: all 1s ease-in-out;
+}
+
+nav li:hover:nth-of-type(4n + 4) {
+  background-color: red;
+  color: #000000;
+  padding: 10px;
+  border-radius: 40%;
+  transition: all 1s ease-in-out;
+}
+
+#discord:hover {
+  background-color: #4651cf;
+  color: #dcdad7;
+  padding: 10px;
+  border-radius: 40%;
+}
+
+/*Profile Picture Icons turned into circles*/
+.icons {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Spacing between table data*/
+table td {
+  padding: 10px;
+}
+
+/* To position the main gif centered*/
+.homepage {
+  margin: 10px;
+  text-align: center;
+}
+
+/*Making sure the Roles include the same font*/
+.role {
+  font-family: "Fjalla One", sans-serif;
+}
+
+/* Placeholder for characters that have been taken*/
+.blanksq {
+  background-color: #000000;
+  width: 200;
+  height: 200;
+  border-radius: 50%;
+}
+
+#characters {
+  position: relative;
+}
+
+/* Professor Table colour and style. Rounded corners*/
+.professors {
+  background-color: blueviolet;
+  margin: 10px;
+  padding: 0px;
+  border-color: black;
+  border-radius: 10px;
+  border: 5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Hufflepuff Table Title*/
+.hufflepuff h1 {
+  background-color: gold;
+  color: black;
+}
+/*Hufflepuff table colour and style. Rounded corners*/
+.hufflepuff {
+  background-color: gold;
+  float: left;
+  margin: 10px;
+  padding: 0px;
+  border-color: black;
+  border-radius: 10px;
+  border: 5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Ravenclaw Table Title*/
+.ravenclaw h1 {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+/*Ravenclaw Table colour, style. Rounded corners*/
+.ravenclaw {
+  background-color: cornflowerblue;
+  float: left;
+  margin: 10px;
+  padding: 0px;
+  border-color: black;
+  border-radius: 10px;
+  border: 1%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Slytherin Table Title*/
+.slytherin h1 {
+  background-color: darkgreen;
+  color: black;
+}
+
+/*Syltherin Table colour, style. Rounded corners*/
+.slytherin {
+  background-color: darkgreen;
+  float: left;
+  margin: 10px;
+  padding: 0px;
+  border-color: black;
+  border-radius: 10px;
+  border: 5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Gryffindor Table Titles*/
+.gryffindor h1 {
+  background-color: crimson;
+  color: black;
+}
+
+/*Gryffindor Table colour, style. Rounded corners*/
+.gryffindor {
+  background-color: crimson;
+  float: left;
+  margin: 10px;
+  padding: 0px;
+  border-color: black;
+  border-radius: 10px;
+  border: 5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body footer div {
+  background-color: black;
+}
