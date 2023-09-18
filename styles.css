@@ -76,7 +76,7 @@ nav li {
   text-align: center;
   padding: 30px;
 }
-
+/* Merges the Webpage title with nav bar */
 #top {
   background-color: black;
   color: aliceblue;
@@ -121,7 +121,7 @@ nav li:hover:nth-of-type(4n + 4) {
   border-radius: 40%;
 }
 
-/*Profile Picture Icons turned into circles*/
+/*Profile Picture Icons turned into circles with shadow*/
 .icons {
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -155,7 +155,7 @@ table td {
   position: relative;
 }
 
-/* Professor Table colour and style. Rounded corners*/
+/* Professor Table colour and style. Rounded corners and shadow*/
 .professors {
   background-color: blueviolet;
   margin: 10px;
@@ -171,7 +171,7 @@ table td {
   background-color: gold;
   color: black;
 }
-/*Hufflepuff table colour and style. Rounded corners*/
+/*Hufflepuff table colour and style. Rounded corners and shadow*/
 .hufflepuff {
   background-color: gold;
   float: left;
@@ -189,7 +189,7 @@ table td {
   color: black;
 }
 
-/*Ravenclaw Table colour, style. Rounded corners*/
+/*Ravenclaw Table colour, style. Rounded corners and shadow*/
 .ravenclaw {
   background-color: cornflowerblue;
   float: left;
@@ -207,7 +207,7 @@ table td {
   color: black;
 }
 
-/*Syltherin Table colour, style. Rounded corners*/
+/*Syltherin Table colour, style. Rounded corners and shadow*/
 .slytherin {
   background-color: darkgreen;
   float: left;
@@ -225,7 +225,7 @@ table td {
   color: black;
 }
 
-/*Gryffindor Table colour, style. Rounded corners*/
+/*Gryffindor Table colour, style. Rounded corners and shadow*/
 .gryffindor {
   background-color: crimson;
   float: left;
