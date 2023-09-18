@@ -21,6 +21,11 @@ p {
   font-family: "Fjalla One", sans-serif;
 }
 
+/* Adding font to lists*/
+li {
+  font-family: "Fjalla One", sans-serif;
+}
+
 /*Main banner colour black with light blue text instead of hyperlink blue*/
 
 .banner {
@@ -237,6 +242,9 @@ table td {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body footer div {
-  background-color: black;
+.rundown {
+  text-align: center;
+  border-radius: 10px;
+  border: 5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
