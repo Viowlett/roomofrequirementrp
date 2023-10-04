@@ -90,46 +90,60 @@ nav li {
 nav li:hover:nth-of-type(4n + 1) {
   background-color: blue;
   color: #000000;
-  padding: 10px;
-  border-radius: 40%;
+  padding: 30px;
+  border-radius: 50%;
   transition: all 1s ease-in-out;
 }
 
 nav li:hover:nth-of-type(4n + 2) {
   background-color: gold;
   color: #000000;
-  padding: 10px;
-  border-radius: 40%;
+  padding: 30px;
+  border-radius: 50%;
   transition: all 1s ease-in-out;
 }
 
 nav li:hover:nth-of-type(4n + 3) {
   background-color: green;
   color: #000000;
-  padding: 10px;
-  border-radius: 40%;
+  padding: 30px;
+  border-radius: 50%;
   transition: all 1s ease-in-out;
 }
 
 nav li:hover:nth-of-type(4n + 4) {
   background-color: red;
   color: #000000;
-  padding: 10px;
-  border-radius: 40%;
-  transition: all 1s ease-in-out;
-}
 
-#discord:hover {
-  background-color: #4651cf;
-  color: #dcdad7;
-  padding: 10px;
-  border-radius: 40%;
+  padding: 30px;
+  border-radius: 50%;
+  transition: all 1s ease-in-out;
 }
 
 /*Profile Picture Icons turned into circles with shadow*/
 .icons {
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.icons:hover {
+  filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/* surrounds icons of characters in a white dashed line for those who have not been active recently */
+.hiatus {
+  border-color: white;
+  border-radius: 50%;
+  border-style: dashed;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
 }
 
 /*Spacing between table data*/
@@ -154,10 +168,6 @@ table td {
   width: 200;
   height: 200;
   border-radius: 50%;
-}
-
-#characters {
-  position: relative;
 }
 
 /* Professor Table colour and style. Rounded corners and shadow*/
@@ -247,4 +257,11 @@ table td {
   border-radius: 10px;
   border: 5%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 726px) {
+  #container {
+    width: 90%;
+    margin: auto;
+  }
 }
