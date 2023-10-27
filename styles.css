@@ -124,15 +124,13 @@ nav li:hover:nth-of-type(4n + 4) {
 .icons {
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 500ms, ease-in-out;
 }
 
 .icons:hover {
-  filter: brightness(50%);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
   transition: all 1s ease;
+  transform: scale(1.5);
+  border: white solid;
 }
 /* surrounds icons of characters in a white dashed line for those who have not been active recently */
 .hiatus {
